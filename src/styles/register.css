@@ -1,0 +1,106 @@
+
+
+
+.container-register-form{
+    width: 80%;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 60px auto;
+    padding: 10px;
+    
+}
+
+
+
+
+.my-form-register{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-input-register{
+    width: 250px;
+    border-radius: 20px;
+}
+
+
+.container-register-form > :first-child {
+    height: 10%; 
+}
+
+.text-title-register{
+    width: 450px;
+    height: 360px;
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form-register-form{
+    width: 400px;
+    height: 380px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding:20px;
+    background-color: white;
+}
+
+
+
+
+.typing-effect {
+    overflow: hidden;
+    white-space: nowrap; 
+    width: 0; 
+    animation: typing 3s steps(20, end) forwards, blink 0.7s steps(2, start) 2s;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+    100% { border-color: transparent; } /* Hace que desaparezca después de 3s */
+}
+
+.title-form-register{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+@media(width<=782){
+    
+    .form-register-form{
+        width: 100%;
+        height: 350px;
+        border: 1px solid black;
+        background-color: yellow;
+        border-radius: 10px;
+        padding:20px;
+    }
+
+    .container-register-form{
+        width: 100%;
+       
+        
+    }
+}
